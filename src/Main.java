@@ -68,6 +68,31 @@ public class Main {
 
         //Task 5//
 
+    int MashaSalary = 67760;
+    int DenisSalary = 83690;
+    int KristinaSalary = 76230;
+    float MashaIncreasedSalary = (float) (MashaSalary * 1.1);
+    float DenisIncreasedSalary = (float) (DenisSalary * 1.1);
+    float KristinaIncreasedSalary = (float) (KristinaSalary * 1.1);
+
+    int MashaYearIncome = MashaSalary * 12;
+    float MashaIncreasedYearIncome = MashaIncreasedSalary * 12;
+    float MashaIncomeDifference = MashaIncreasedYearIncome - MashaYearIncome;
+
+    int DenisYearIncome = DenisSalary * 12;
+    float DenisIncreasedYearIncome = DenisIncreasedSalary * 12;
+    float DenisIncomeDifference = DenisIncreasedYearIncome - DenisYearIncome;
+
+    int KristinaYearIncome = KristinaSalary * 12;
+    float KristinaIncreasedYearIncome = KristinaIncreasedSalary * 12;
+    float KristinaIncomeDifference = KristinaIncreasedYearIncome - KristinaYearIncome;
+
+        System.out.println("Маша теперь получет " + MashaIncreasedSalary + " рублей. Годовой доход вырос на " + MashaIncomeDifference + " рублей.");
+
+        System.out.println("Денис теперь получет " + DenisIncreasedSalary + " рублей. Годовой доход вырос на " + DenisIncomeDifference + " рублей.");
+
+        System.out.println("Кристина теперь получет " + KristinaIncreasedSalary + " рублей. Годовой доход вырос на " + KristinaIncomeDifference + " рублей.");
+
 
 
     }
